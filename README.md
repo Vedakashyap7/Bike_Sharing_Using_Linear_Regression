@@ -37,7 +37,23 @@ Data Definition
 
 ## Conclusions
 -Equation obtained from final model:
+Y = 782.79 + 2029.01(yr) - 753.31(holiday) + 4938.9(temp) - 1264.48(windspeed) + 705.35(season_summer) + 1095.77(season_winter) + 777.92(mnth_sep) - 2203.34(weathersit_light_rain)
 
+We can see there are a few that contribute positively towards the demand and some variables that negatively influence the demand.
+
++ Variables that contribute positively and their coefficients
+
+- temp --> 4938.90
+- yr --> 2029.01
+- season_winter --> 1095.77
+- mnth_sep --> 777.92
+- season_summer --> 705.35
+
++ Variables that contribute negatively and their coefficients
+
+- weathersit_light_rain --> -2203.34
+- windspeeed --> -1264.48
+- holiday --> -753.31
 
 
 ## Technologies Used
